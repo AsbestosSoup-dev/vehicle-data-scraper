@@ -9,9 +9,9 @@ Project Goals
 - Gather comprehensive vehicle information, including:
   - Make, model, and year
   - Price
-  - Horsepower, torque, and mileage
+  - Horsepower, torque, weight
   - Fuel type, transmission, body type
-  - (Potentially more fields like weight)
+  - (Potentially more fields)
 - Store data in a database for easy querying and analysis.
 - Provide insights and statistics, such as average prices, popular models, and performance trends.
 
@@ -25,24 +25,24 @@ Getting Started
 ---------------
 
 ### Prerequisites
-- **Rust**: Install Rust and vehiclego from [rust-lang.org](https://www.rust-lang.org/).
+- **Rust**: Install Rust from [rust-lang.org](https://www.rust-lang.org/).
 - **SQLite**: The initial implementation uses SQLite as the database, so make sure SQLite is installed.
 
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/vehicle-data-scraper.git
+   git clone https://github.com/AsbestosSoup-dev/vehicle-data-scraper.git
    cd vehicle-data-scraper
    ```
 2. Install dependencies:
    ```bash
-   vehiclego build
+   cargo build
    ```
 
 ### Usage
 1. Run the scraper:
    ```bash
-   vehiclego run
+   cargo run
    ```
 2. Once the data is collected, you can query the database to retrieve insights.
 
@@ -54,4 +54,4 @@ Planned Enhancements
 
 License
 -------
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License—see the [LICENSE](LICENSE.txt) file for details.
