@@ -1,0 +1,7 @@
+# Rust-specific
+/target
+**/*.rs.bk
+
+# CLion-specific
+.idea/
+to-do.md
